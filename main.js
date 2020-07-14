@@ -30,22 +30,22 @@ const addTodoItemClicked = () => {
         contents: todoValue,
         done: false
     };
-
     todoList.push(todoItem);
     console.log(todoList);
     render();
 };
-const allBtnClicked = (index) =>{
-    render();
-}
-const doneBtnClicked = (index) =>{
-    todoList.splice(index,1)
-    render();
-}
-const undoneBtnClicked = (index) =>{
-    todoList.splice(index,1)
-    render();
-}
+
+// const allBtnClicked = (index) =>{
+//     render();
+// }
+// const doneBtnClicked = (index) =>{
+//     todoList.splice(index,1)
+//     render();
+// }
+// const undoneBtnClicked = (index) =>{
+//     todoList.splice(index,1)
+//     render();
+// }
 
 
 

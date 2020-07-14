@@ -13,18 +13,20 @@
 
 <body>
     <div class="style-1 p-5 opacity-0-6 ">
-        <h1 class="style-3">🤾‍♀️Nguyen's To-do List🤾‍♂️</h1>
-        <div class="d-flex justify-content-between">
-            <input class="style-2 mr-1"type="text" id="todoInput" />
-            <button class="btn btn-danger rounded-circle" onclick="addTodoItemClicked()"><i class="fas fa-plus"></i></button>
+        <div class="bg-style btn btn-outline-secondary bg-info text-white">
+            <h1 class="style-3 ">🤾‍♀️Nguyen's To-do List🤾‍♂️</h1>
+            <div class="d-flex justify-content-between">
+                <input class="style-2 mr-1" type="text" id="todoInput" />
+                <button class="btn btn-danger rounded-circle" onclick="addTodoItemClicked()"><i
+                        class="fas fa-plus"></i></button>
+            </div>
+            <div class="mt-3">
+                <button class=" btn btn-warning " id="allBtn" onclick="">All</button>
+                <button class=" btn btn-warning" id="doneBtn" onclick="">Done</button>
+                <button class=" btn btn-warning" id="unDoneBtn" onclick="">UnDone</button>
+            </div>
+            <div id="resultArea"></div>
         </div>
-        <div class="mt-3">
-            <button class="btn btn-success " id="allBtn" onclick="">All</button>
-            <button class="btn btn-success" id="doneBtn" onclick="">Done</button>
-            <button class="btn btn-success" id="unDoneBtn" onclick="">UnDone</button>
-        </div>
-
-        <div id="resultArea"></div>
     </div>
 
     <script src="main.js"></script>
