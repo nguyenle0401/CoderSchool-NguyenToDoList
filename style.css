@@ -1,0 +1,31 @@
+.style-1{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: start;
+height: 100%;
+width: 100%;
+position: absolute;
+}
+.style-2{
+    height: 40px;
+    width:500px;
+}
+.style-3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.opacity-0-6{
+    background-color: rgba(14, 216, 243, 0.5)
+}
+
+.item-style{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+font-family: monospace;
+font-size: 15px;
+}
