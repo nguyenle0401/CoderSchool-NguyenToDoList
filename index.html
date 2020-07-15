@@ -16,14 +16,14 @@
         <div class="bg-style btn btn-outline-secondary bg-info text-white">
             <h1 class="style-3 ">🤾‍♀️Nguyen's To-do List🤾‍♂️</h1>
             <div class="d-flex justify-content-between">
-                <input class="style-2 mr-1" type="text" id="todoInput" />
+                <input  class="style-2 mr-1" type="text" id="todoInput" placeholder ="Hey, what to do next?"/>
                 <button class="btn btn-danger rounded-circle" onclick="addTodoItemClicked()"><i
                         class="fas fa-plus"></i></button>
             </div>
             <div class="mt-3">
-                <button class=" btn btn-warning " id="allBtn" onclick="">All</button>
-                <button class=" btn btn-warning" id="doneBtn" onclick="">Done</button>
-                <button class=" btn btn-warning" id="unDoneBtn" onclick="">UnDone</button>
+                <button class=" btn btn-warning " id="allBtn" onclick="allBtnClicked()">All</button>
+                <button class=" btn btn-warning" id="doneBtn" onclick="doneBtnClicked()">Done</button>
+                <button class=" btn btn-warning" id="undoneBtn" onclick="undoneBtnClicked()">UnDone</button>
             </div>
             <div id="resultArea"></div>
         </div>

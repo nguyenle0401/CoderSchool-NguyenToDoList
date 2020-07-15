@@ -36,18 +36,8 @@ font-family: monospace;
 font-size: 20px;
 font-weight: bold;
 }
-.bg-style{
-/* display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: start;
-position: absolute;
-border: 1px solid black;
-height: 80%;
-width: 50%; */
 
-}
-.colorfor1{
-    background-color: rgb(61, 240, 61);
+.strick-through{
+    text-decoration: line-through black;
 }
 
